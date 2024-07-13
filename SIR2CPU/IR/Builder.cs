@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace NativeCIL.IR;
+namespace SIR2CPU.IR;
 
 public class Builder
 {

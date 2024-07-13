@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace NativeCIL.Linker;
+namespace SIR2CPU.Linker;
 
 public static unsafe class ELF
 {

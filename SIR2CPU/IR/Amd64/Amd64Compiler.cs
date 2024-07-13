@@ -1,8 +1,8 @@
-using NativeCIL.Base;
-using NativeCIL.Linker;
-using static NativeCIL.IR.OpCode;
+using SIR2CPU.Base;
+using SIR2CPU.Linker;
+using static SIR2CPU.IR.OpCode;
 
-namespace NativeCIL.IR.Amd64;
+namespace SIR2CPU.IR.Amd64;
 
 public class Amd64Compiler : Compiler
 {

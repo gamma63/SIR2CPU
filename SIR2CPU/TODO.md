@@ -1,0 +1,3 @@
+- [ ] C# to ELF support (inside OS + as OS program)
+- [ ] COSMOS compatability
+- [ ] Use as main compiler in SiriusOS

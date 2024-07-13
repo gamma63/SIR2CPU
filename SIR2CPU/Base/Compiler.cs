@@ -1,7 +1,7 @@
 using System.Text;
-using NativeCIL.IR;
+using SIR2CPU.IR;
 
-namespace NativeCIL.Base;
+namespace SIR2CPU.Base;
 
 public abstract class Compiler
 {

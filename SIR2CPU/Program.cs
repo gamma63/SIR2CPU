@@ -2,11 +2,11 @@
 using System.Reflection;
 using System.Text;
 using DiscUtils.Iso9660;
-using NativeCIL;
-using NativeCIL.Base;
-using NativeCIL.IR;
-using NativeCIL.IR.Amd64;
-using NativeCIL.IR.I386;
+using SIR2CPU;
+using SIR2CPU.Base;
+using SIR2CPU.IR;
+using SIR2CPU.IR.Amd64;
+using SIR2CPU.IR.I386;
 
 var watch = new Stopwatch();
 var settings = new Settings(args);
@@ -56,8 +56,8 @@ switch (settings.ImageType)
         watch.Restart();
 
         var assembly = Assembly.GetExecutingAssembly();
-        using var cd = assembly.GetManifestResourceStream("NativeCIL.limine-cd.bin");
-        using var sys = assembly.GetManifestResourceStream("NativeCIL.limine.sys");
+        using var cd = assembly.GetManifestResourceStream("SIR2CPU.limine-cd.bin");
+        using var sys = assembly.GetManifestResourceStream("SIR2CPU.limine.sys");
 
         var iso = new CDBuilder
         {

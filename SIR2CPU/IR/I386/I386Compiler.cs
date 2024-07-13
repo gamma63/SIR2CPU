@@ -1,8 +1,8 @@
-using NativeCIL.Base;
-using NativeCIL.Linker;
-using static NativeCIL.IR.OpCode;
+using SIR2CPU.Base;
+using SIR2CPU.Linker;
+using static SIR2CPU.IR.OpCode;
 
-namespace NativeCIL.IR.I386;
+namespace SIR2CPU.IR.I386;
 
 public class I386Compiler : Compiler
 {

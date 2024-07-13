@@ -1,4 +1,4 @@
-namespace NativeCIL;
+namespace SIR2CPU;
 
 public enum TargetArchitecture { Amd64, I386 }
 public enum Format { Bin, Elf }

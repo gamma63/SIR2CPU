@@ -1,4 +1,4 @@
-namespace NativeCIL.IR;
+namespace SIR2CPU.IR;
 
 public class Register
 {

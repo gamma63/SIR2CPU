@@ -1,10 +1,10 @@
 using System.Text.RegularExpressions;
 using dnlib.DotNet;
 using dnlib.DotNet.Emit;
-using static NativeCIL.IR.OpCode;
+using static SIR2CPU.IR.OpCode;
 using OperandType = dnlib.DotNet.Emit.OperandType;
 
-namespace NativeCIL.IR;
+namespace SIR2CPU.IR;
 
 public class IRCompiler
 {

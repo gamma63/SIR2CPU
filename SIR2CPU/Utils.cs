@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace NativeCIL;
+namespace SIR2CPU;
 
 public static class Utils
 {
